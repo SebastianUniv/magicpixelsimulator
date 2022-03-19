@@ -12,15 +12,11 @@ yarn install
 ### Commands
 Build JavaScript from TypeScript:
 ```sh
-yarn build
+yarn start-compile
 ```
 Run compiled JavaScript:
 ```sh
 yarn start
-```
-Run TypeScript with compilation on the fly:
-```sh
-yarn dev
 ```
 Run Jest tests, if no test type is given it will run all tests:
 ```sh
